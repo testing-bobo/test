@@ -1,0 +1,53 @@
+composer create-project --prefer-dist laravel/laravel blog --- download new project
+
+/opt/lampp/htdocs/IT-Test$ git init -- to create .git 
+
+git config --global user.name "bobo54157"
+git config --global user.email "bobo1992572812015@gmail.com"
+git remote add origin https://github.com/Forward-bc9/IT-Test.git
+git remote show origin
+git status
+git add .
+git status
+git commit -m "add file"
+git push -u origin master
+
+
+/*** Git ***/
+
+git config --global user.name "bobo54157"
+git config --global user.email "bobo1992572812015@gmail.com"
+
+Leader  => Download laravel project
+	=> Enter into project folder
+	=> git init
+	=> git remote add origin https://github.com/Forward-bc9/IT-Test.git
+	=> git remote show origin
+	=> git status /*** red color [added and modified files] ***/
+	=> git add .
+	=> git status /*** green color ***/
+	=> git commit -m "message"
+	=> git push -u origin master
+
+member 	=> Enter into local server (htdocs -- using terminal)
+	=> git clone https://github.com/Forward-bc9/IT-Test.git
+
+create new branch => Enter into project folder
+		  => git checkout -b branch-username
+		  => git branch -a /*** show branch list
+		  => git status /*** red color [added and modified files] ***/
+		  => git add .
+		  => git status /*** green color ***/
+		  => git commit -m "message"
+		  => git push -u origin branch-bobo
+
+merge branch into master => git checkout master
+			 => git branch -a
+			 => git fetch
+			 => git merge "branch-username"
+			 => git push origin master 
+	
+
+bobo*****541
+					 
+
